@@ -1,0 +1,23 @@
+{
+  "model_name": "LogisticRegression",
+  "tuned": true,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "best_params": {
+    "clf__C": "1",
+    "clf__class_weight": "None",
+    "tfidf__min_df": "2",
+    "tfidf__ngram_range": "(1, 2)",
+    "tfidf__sublinear_tf": "True"
+  },
+  "cv_f1_macro": 0.9645,
+  "test_accuracy": 0.9505,
+  "test_f1_macro": 0.9469,
+  "train_rows": 2179,
+  "test_rows": 545,
+  "sklearn_version": "1.9.1",
+  "trained_at": "2026-10-01T09:00:41"
+}
